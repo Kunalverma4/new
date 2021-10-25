@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal verma/web developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f9237b0473.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <Span><Span id="time"> </Span></Span>
+        <nav>
+
+
+
+            <br><br><br><br><br><br><br><br>
+            <div class="container my-4">
+                <h1>Hey There:) <b>This is Kunal verma</b> </h1>
+                <p >I'll make websites for you.<b>PRETTY</b> websites :)</p>
+                <div class="button1">
+                    <a href="/Aboutme.html" target="iframe_a"><button >Aboutme</button></a>
+
+                    <a href="/Kunal-Resume.pdf" target="iframe_a"><button >My
+                            Resume</button></a>
+
+                    <a href="/Project1.html" target="_blank"><button >My
+                            Projects</button></a>
+
+                    <a href="/contact.html" target="iframe_a"><button ><i
+                                class="glyphicon glyphicon-envelope"></i> Contact Me</button></a>
+
+                    <a href="https://www.linkedin.com/in/kunal-verma-60a94b201/" target="_blank"><button
+                        ><i class="fab fa-linkedin"></i> Linkedin</button></a>
+                </div>
+            </div>
+                <br>
+                <iframe name="iframe_a" height="400px" width="100%" style="border: 2px solid black;"></iframe>
+                <script>
+                    setInterval(() => {
+                        var a = new Date();
+                        document.getElementById("time").innerHTML = a.toLocaleString();
+
+                    }, 1000);
+
+                </script>
+</body>
+
+</html>

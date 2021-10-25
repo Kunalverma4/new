@@ -1,0 +1,53 @@
+
+ .container,h1,p,button{
+    position: primitive;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }  
+ 
+button{
+    display: flex;
+    background-color: transparent;
+    color: gray;
+    align-items: center;
+    padding-left: 10px;
+    text-decoration: none;
+}  
+button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(250, 248, 248)  ;
+    box-shadow: 0 0 5px rgba(4, 0, 255, 0.349);
+}   
+body{
+    display: flex;
+    background-color: rgba(255, 235, 205, 0.445);
+    background-image:url(me.jpeg);
+    background-size: 1600px 1080px;
+    
+    
+}
+iframe{
+    display: flex;
+    align-self: stretch;
+    box-shadow: 2 2 5 blue;
+    width: 1200px;
+
+}
+#time{
+    position:fixed;
+    display:flex;
+    padding-left: 640px;
+    /* width : auto; */
+}
+.button1{
+    display: flex;
+    align-self: center;
+    align-items:center;
+    justify-content:space-around ;
+    padding: 20px;
+    text-decoration: none;
+    width: 600px;
+    margin-left: 200px;
+}
